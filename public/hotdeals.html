@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hot deals</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <style>
+      #news{
+        margin-left: 22%;
+      }
+      #hotpackages{
+        padding: 30px;
+        text-align: center;
+      }
+      #hotpackages > h3 > span{
+        color: goldenrod;
+      }
+      #hotpackages > h3{
+        margin-top: 30px;
+        font-weight: lighter;
+        text-align: center;
+      }
+      #hotpackages > img{
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+      #hotpackages > p{
+        font-weight: lighter;
+      }
+      .navigation{
+        background-image: url(/assets/images/hotdeals2.jpg);
+        background-size: cover;
+        width: 100%;
+        padding-bottom: 50px;
+      }
+
+      @media (max-width: 766px){
+        #news{
+          margin-left: 0%;
+        }
+     }
+    </style>
+</head>
+<body>
+    <section class="navigation text-center" > 
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+              <a class="navbar-brand"><img src="/assets/images/SGN_07_10_2023_1688986458810.png" width="90px" height="60px" alt="3tos logo"/></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./hotdeals.html" style="color: white;">Hot Deals</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+                      Properties
+                    </a>
+                    <ul class="dropdown-menu bg-transparent">
+                      <li><a class="dropdown-item" style="color: white;" href="./properties.html">For Sale</a></li>
+                      <li><a class="dropdown-item" style="color: white;" href="./properties.html">Rentals</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" style="color: white;" href="./enlist.html">Enlist Your Properties with Us</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" style="color: white;" href="./contact.html">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <h2 style="font-weight: bold; color: white; ">Hot Deals</h2>
+        <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    </section>
+    <div id="hotpackages">
+      <h3>Our <span>Special</span> Offers.</h3>
+      <img src="/assets/images/error.jpg" height="200px" width="300px" alt="No Offers Available at the moment"/>
+      <p>
+        Sorry, But there are currently<br> no Special offers at the moment.
+        Kindly Check Back Later,<br> You can also subscribe to our monthly news letter
+        to get notifications<br> on our latest and hotest deals.
+      </p>
+    </div>
+    <hr>
+    <section style="padding-left: 30px; padding-right: 30px;">
+      <div class="footer-container">
+        <footer class="py-5">
+          <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+              <img src="/assets/images/SGN_07_10_2023_1688986458810.png" height="80" width="110px"/>
+            </div>
+            <div class="col-6 col-md-2 mb-3">
+              <a href="./public/about.html" class="nav-link p-0"><h5>About Us</h5></a>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="./elite.html" class="nav-link p-0 text-body-secondary">Elite Service Plan</a></li>
+                <li class="nav-item mb-2"><a href="./terms.html" class="nav-link p-0 text-body-secondary">Terms & Conditions</a></li>
+              </ul>
+            </div>
+            <div class=" col-md-5 offset-md-1 mb-3" id="news">
+              <form>
+                <h5>Subscribe to Our Newsletter</h5>
+                <p>A monthly digest of new and exciting offers on available Properties.</p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden">Email address</label>
+                  <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                  <button class="btn btn-dark" type="button">Subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+      
+          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>© 2023 3To's Properties. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3"><a class="link-body-emphasis" href="https://web.facebook.com/people/3Tos-Properties/100065310647356/?_rdc=1&_rdr"><img src="/assets/images/i.fi-social-facebook.svg" /></a></li>
+              <li class="ms-3"><a class="link-body-emphasis" href="https://www.linkedin.com/in/olawole-joseph-609362189/?originalSubdomain=ng"><img src="/assets/images/i.fi-social-linkedin.svg" /></a></li>
+              <li class="ms-3"><a class="link-body-emphasis" href="https://www.instagram.com/3tosproperties/"><img src="/assets/images/svg.feather.svg" /></a></li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+      </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

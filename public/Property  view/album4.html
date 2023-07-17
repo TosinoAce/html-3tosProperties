@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual inspection</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <style>
+    .navigation{
+      background-image: url(/assets/images/homebackground3.jpg);
+      background-size: cover;
+      width: 100%;
+      padding-bottom: 50px;
+    }
+    #news{
+        margin-left: 22%;
+    }
+    .a-container{
+        width: 80%;
+        padding: 50px;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    video{
+        width:500px ; 
+        height:300px;
+        margin-top: 25%;
+    }
+    #details{
+        width: 80%;
+    }
+    #a-flex{
+        display: flex;
+        justify-content: center;
+
+    }
+    .a-container > .img{
+        padding: 10px;
+    }
+    .a-container > .img > img{
+        height: 200px; 
+        width: 100%;
+    }
+    #description > span{
+        font-weight: lighter;
+    }
+    
+
+    @media (max-width: 766px){
+        #news{
+          margin-left: 0%;
+        }
+    }
+    @media (max-width: 1020px){
+       .a-container{
+        display: block;
+        padding: 20px;
+        width: 100%;
+       }
+       #a-flex{
+        display: flex;
+        justify-content: center;
+       }
+       .a-container > .img{
+        display: inline;
+        padding: 0px;
+       }
+       .a-container > .img > img{
+        height: 110px; 
+        width: 30%;
+       }
+       #details{
+        width: 90%;
+       }
+       video{
+        margin-top: 30px;
+        margin-left: 0%;
+        width: 90%;
+       }
+    }
+    </style>
+</head>
+<body>
+    <section class="navigation text-center" > 
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+              <a class="navbar-brand"><img src="/assets/images/SGN_07_10_2023_1688986458810.png" width="90px" height="60px" alt="3tos logo"/></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/index.html" style="color: white;">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/public/hotdeals.html" style="color: white;">Hot Deals</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+                      Properties
+                    </a>
+                    <ul class="dropdown-menu bg-transparent">
+                      <li><a class="dropdown-item" style="color: white;" href="/public/properties.html">For Sale</a></li>
+                      <li><a class="dropdown-item" style="color: white;" href="/public/properties.html">Rentals</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" style="color: white;" href="/public/enlist.html">Enlist Your Properties with Us</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" style="color: white;" href="/public/contact.html">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <h2 style="color: white; font-weight: bold;">Virtual Inspection</h2>
+        <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    </section>
+    <section id="a-flex">
+        <div class="a-container">
+            <div style=" grid-row: span 3;">
+                <video controls>
+                    <source src="/assets/images/901be14f956c6d629534b65e94a08d48.mp4" type="video/mp4"/>
+                </video>
+                <p style="text-align: center; font-weight: lighter;"> * All this are you just sample for the website (other people's Content). *</p>
+            </div>
+            <div class="img" style=" grid-row: span 1;"><img src="/assets/images/livingroom4.jpg" alt="living rrom" /></div>
+            <div class="img" style=" grid-row: span 1;"><img src="/assets/images/kitchen4.jpg" alt="kitchen" /></div>
+            <div class="img" style=" grid-row: span 1;"><img src="/assets/images/bathroom4.jpg" alt="bathroom" /></div>
+        </div>
+    </section>
+    <hr>
+    <h3 style="font-weight: lighter; text-align: center; margin-top: 30px; margin-bottom: 30px;">Detailed <span style="color: goldenrod;">Description</span> Of The Property</h3>
+    <div  style="display: flex; justify-content: center;">
+        <div id="details">
+            <p id="description">Welcome to this stunning Four-bedroom Duplex that combines modern design, comfort, and convenience. Located in a desirable neighborhood, this property offers an ideal living space for individuals or small families. Let's explore its features:<br>
+            <br>
+            1.Bedrooms:<br>
+           <span>The flat comprises two well-appointed bedrooms, each providing a tranquil retreat.
+           Both bedrooms are generously sized, allowing for comfortable furniture arrangements and ample storage space.
+           Large windows in each room fill the space with natural light, creating a bright and airy ambiance.</span>
+           <br>
+           <br>
+           2. Living Area:<br>
+           <span>The open-plan living area serves as the heart of the flat, offering a versatile space for relaxation and entertainment.
+           The living room is well-proportioned, easily accommodating various seating arrangements and a dining area if desired.
+           Its contemporary design and neutral color palette create a welcoming atmosphere for both residents and guests.</span>
+           <br>
+           <br>
+           3. Kitchen:<br>
+           <span>The flat boasts a modern, fully equipped kitchen, featuring sleek countertops, ample cabinetry, and high-quality appliances.
+           With its functional layout, the kitchen provides an ideal space for culinary enthusiasts to prepare delicious meals.
+           Whether you enjoy hosting gatherings or prefer intimate dinners, this kitchen caters to your every need.</span>
+           <br>
+           <br>
+           4. Bathroom:<br>
+           <span>A well-appointed bathroom, conveniently located, serves the residents and guests of the flat.
+           It showcases modern fixtures, a refreshing color scheme, and sufficient storage for toiletries and linens.
+           The bathroom's clean lines and contemporary design contribute to an overall sense of luxury and comfort.</span>
+           <br>
+           <br>
+           5. Additional Amenities:<br>
+           <span>The flat may also offer additional amenities such as a balcony, a communal garden, or private parking, depending on its specific features.
+           Residents can enjoy the convenience of on-site laundry facilities or other perks that enhance their quality of life.</span>
+           <br>
+           <br>
+           6. Location:<br>
+           <span>Ideally situated in a sought-after neighborhood, the flat provides easy access to local amenities, including shops, restaurants, parks, and public transportation.
+           Proximity to schools, healthcare facilities, and recreational areas makes it a desirable choice for families and professionals alike.
+           <br>
+           <br>
+           Overall, this spacious two-bedroom flat offers a contemporary living space that effortlessly combines style, functionality, and comfort. Whether you seek a cozy home or a place to entertain guests, this property is sure to meet your needs. Don't miss the opportunity to make this exceptional flat your new home.</p></span>
+        </div>
+    </div>
+    <div style="display: flex; justify-content: center; margin-bottom: 40px; margin-top: 20px;">
+        <a href="https://api.whatsapp.com/send/?phone=%2B2348033489909&text&type=phone_number&app_absent=0"><button type="button" class="btn btn-light btn-outline-dark"><img src="/assets/images/whatsapp.svg" height="25px" alt="whatsapp"/> Connect with us</button></a>
+    </div>
+    <hr>
+    <section style="padding-left: 30px; padding-right: 30px;">
+        <div class="footer-container">
+          <footer class="py-5">
+            <div class="row">
+              <div class="col-6 col-md-2 mb-3">
+                <img src="/assets/images/SGN_07_10_2023_1688986458810.png" height="80" width="110px"/>
+              </div>
+              <div class="col-6 col-md-2 mb-3">
+                <a href="/public/about.html" class="nav-link p-0"><h5>About Us</h5></a>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="/public/elite.html" class="nav-link p-0 text-body-secondary">Elite Service Plan</a></li>
+                  <li class="nav-item mb-2"><a href="/public/terms.html" class="nav-link p-0 text-body-secondary">Terms & Conditions</a></li>
+                </ul>
+              </div>
+              <div class=" col-md-5 offset-md-1 mb-3" id="news">
+                <form>
+                  <h5>Subscribe to Our Newsletter</h5>
+                  <p>A monthly digest of new and exciting offers on available Properties.</p>
+                  <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                    <label for="newsletter1" class="visually-hidden">Email address</label>
+                    <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                    <button class="btn btn-dark" type="button">Subscribe</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+        
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+              <p>© 2023 3To's Properties. All rights reserved.</p>
+              <ul class="list-unstyled d-flex">
+                <li class="ms-3"><a class="link-body-emphasis" href="https://web.facebook.com/people/3Tos-Properties/100065310647356/?_rdc=1&_rdr"><img src="/assets/images/i.fi-social-facebook.svg" /></a></li>
+                <li class="ms-3"><a class="link-body-emphasis" href="https://www.linkedin.com/in/olawole-joseph-609362189/?originalSubdomain=ng"><img src="/assets/images/i.fi-social-linkedin.svg" /></a></li>
+                <li class="ms-3"><a class="link-body-emphasis" href="https://www.instagram.com/3tosproperties/"><img src="/assets/images/svg.feather.svg" /></a></li>
+              </ul>
+            </div>
+          </footer>
+        </div>
+        </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+.navigation{
+    background-image: url(./assets/images/house4.jpg);
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 50px;
+}
+li{
+    color: white;
+    font-weight: light;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    padding: 70px;
+}
+.container > div{
+    height: 500px;
+    width: 500px;
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.hrcontainer{
+    display: flex;
+    justify-content: center;
+}
+#city{
+    height: 600px;
+    padding-top: 15px;
+    background-image: url(./assets/images/victoria\ 2.jpeg); 
+    background-size: cover;
+}
+#city2{
+    height: 600px;
+    padding-top: 15px;
+    background-image: url(./assets/images/location1.jpg); 
+    background-size: cover;
+}
+.about{
+    background-image: url(./assets/images/homebackground2.jpg);
+    background-size: cover;
+}
+.explore{
+    text-align: center;
+    margin-top: 30px;
+}
+#news{
+    margin-left: 22%;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1000px){
+    #popular{
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-content: center;
+        align-items: center;     
+    }
+    .container > div{
+        margin-top: 0px;
+        padding-top: 1px;
+        height: 200px;
+        width: 200px;
+        background-color: white;
+        padding-bottom: 20px;
+    }
+    #city2{
+        height: 200px;
+    }
+    #city{
+        height: 200px;
+    }
+}
+@media (max-width: 766px){
+    #news{
+        margin-left: 0%;
+    }
+  }
